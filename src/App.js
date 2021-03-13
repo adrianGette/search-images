@@ -17,7 +17,7 @@ function App() {
       if(search === '') return;
 
       const imagesPerPage = 30;
-      const key = '20639065-0b187fac881242964e3637430';
+      const key = 'YOUR_API_KEY';
       const url = `https://pixabay.com/api/?key=${key}&q=${search}&per_page=${imagesPerPage}&page=${actualPage}`;
 
       const answer = await fetch(url);
