@@ -1,5 +1,5 @@
 
-See the live React app in the following link:
+See the live React App in the following link:
 
 <br>
 
